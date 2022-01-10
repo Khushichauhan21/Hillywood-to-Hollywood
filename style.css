@@ -1,0 +1,210 @@
+html {
+     height:100%;
+}
+body {
+    background-color: #2f3035;
+    /* linear gradient for opacity */
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1
+    )) ,url(images/gerrit-schwerzel-XCutYyyinBw-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+   /* class for the div which contain all*/
+  .container {
+              margin-left: auto;
+              margin-right: auto;
+              width: 1204px;
+  
+             }
+                         /* logo or title inside header */
+                         .logo {
+   
+                                height:118px;
+                                text-align: center;
+                               
+
+   
+                              } 
+                        /* navigation box and typo to be in center */
+                         nav {
+                               background-color:rgba(0, 0, 0, 0.338);
+                                padding-top:14px;
+                               padding-bottom: 14px;
+                               text-align: center; 
+
+   
+   
+                              }
+
+                                  a {
+                                    color:white;
+                                    font-size: 18px;
+                                    font-weight: 300;
+                                    }    
+ 
+                                     
+                              /* compound class for anchor tag (nav items) */
+                                  nav a {
+                                          text-decoration: none;
+                                         font-size: 18px;
+                                         padding-left:16px;
+                                         padding-right:16px;
+                                        font-family:Arial, Helvetica, sans-serif;
+    
+
+   
+                                        }
+                                /* coloring the first item in nav tag */
+                                    nav .menu a:first-child {
+                                            
+                                                             color: aquamarine;
+                                        
+                                                             }
+                         
+                            
+                            main {
+    
+                                height:400px;
+                                text-align: center;
+                                 margin-top: 56px;
+                                padding-top: 56px;
+                                padding-right: 240px;
+                                padding-left: 240px;
+                                padding-bottom: 56px;
+                                                                
+                                                               
+                             }
+                                      /* for styling logo and devbhoomi uttarakhand */
+                                            h1 {
+                                                font-size:60px;
+                                                color:white;
+                                                font-family:Arial, Helvetica, sans-serif;
+                                                font-weight:12px;
+                                                
+                                
+                                               }
+
+                                            p {
+                                                font-size:18px;
+                                                color:white;
+                                                font-family:Arial, Helvetica, sans-serif;  
+                                              } 
+                                              /* do come and visit */
+                                 section h1 {
+                                               margin:30px 0 20px 0;
+                                                 font-size:  30px;
+                                                 font-weight: 700;
+                                                 text-shadow: 2px 1px 5px black;
+                                                 text-transform: uppercase;
+                                                
+                                            } 
+                                            /* span tag has change content class for tht animation in typo of differnt districts */
+                                            .change_content:after {
+                                                content: '';
+                                                animation: changetext 10s infinite linear;
+                                                color:#00b894;
+                                                }
+                                            
+                                            @keyframes changetext {
+                                                0%{ content:"Dehradun";}
+                                                15%{ content:"Haridwar";}
+                                                35%{ content:"Chamoli";}
+                                                60%{ content:"Rudraprayag";}
+                                                80%{ content:"Tehri Garhwal";}
+                                                95%{ content:"Uttarkashi";}
+                                                100%{ content:"Pauri Garhwal";}
+                                            
+                                            }
+                                   /* styling the anchortag learn more and signup buttons */
+                                    section a {
+                                                padding: 12px 30px;
+                                                border-radius:4px;
+                                                outline:none;
+                                                text-transform: uppercase;
+                                                font-size: 13px;
+                                                font-weight: 500;
+                                                text-decoration: none;
+                                                letter-spacing: 1px;
+                                            }
+                                            section .btnone {
+                                                            background:#fff;
+                                                            color:#000;
+                                                
+                                                          }
+                                            section .btntwo {
+                                                             background:#00b894;
+                                                            color:#fff;
+                                                
+                                                            }
+                                            
+                         /* make reservation anchor tag */
+                         
+                                            .highlight {
+
+                                                font-size:20px;
+                                                font-family:Arial, Helvetica, sans-serif;
+                                                background:#fff;
+                                                color:#000;
+                                                padding: 12px 30px;
+                                                border-radius:4px;
+                                                outline:none;
+                                                text-transform: uppercase;
+                                                font-size: 13px;
+                                                font-weight: 500;
+                                                text-decoration: none;
+                                                letter-spacing: 1px;
+                                                      }
+
+  
+                         /* adding map */
+                         section {
+    
+                                    margin-left: 78px;
+                                    margin-right:78px;
+                                    margin-top:50px;
+                                    margin-bottom:50px;
+                                 }
+                                 iframe {
+                                    margin-top: 50px;
+                                }
+            
+                        footer {
+                                    background-color:rgba(0, 0, 0, 0.555);
+                                    text-align:center;
+                                    padding-bottom:18px;
+                                    padding-top:18px;
+                                   
+                                    
+                                }
+                                
+                                
+                                
+                                
+                                footer p {
+                                    
+                                    padding: 12px 30px;
+                                     border-radius:4px;
+                                     outline:none;
+                                     text-transform: uppercase;
+                                     font-size: 13px;
+                                     font-weight: 500;
+                                     text-decoration: none;
+                                     letter-spacing: 1px;
+                                    
+                                    
+                                }
+                        
+
+   @media screen and (max-width:1024px) {
+    
+   }
+                                
+                                
+
+
+
+ 
+
+
+
